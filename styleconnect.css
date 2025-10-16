@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(35deg, #232526, #434647);
+  height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  background: linear-gradient(35deg, #232526, #434647);
+  position: fixed;
+  box-shadow: 10px 0px 50px 2px rgba(0, 128, 0, 0.47);
+  
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 25px;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+  color: white;
+  font-weight: 900;
+  text-shadow: 0 2px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin-left: -7px;
+}
+
+.Tittle{
+  color: white;
+  font-family: serif;
+  font-family: "Iceberg", sans-serif;
+  text-decoration: underline;
+  padding: 10px;
+  margin-bottom: 5vh;
+  font-size: 1.6rem;
+  text-shadow: 8px 0 5px rgba(0, 218, 36, 0.372);
+}
+
+.On{
+    border-left: 15px solid white;
+    box-shadow: 10px 0 25px black;
+    border-radius: 5px;
+}
+
+.right{
+  margin-left: 19vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.askfield{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+label{
+  font-size: 5rem;
+  width: 70%;
+  margin-inline: auto;
+  text-align: center;
+  text-shadow: 8px 0 5px rgba(0, 218, 36, 0.372);
+}
+
+input{
+  margin-top: 5vh;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 10px 0 25px black;
+  border: none;
+  font-size: 1.3rem;
+  background: linear-gradient(35deg, black, transparent);
+  color: rgb(47, 255, 0);
+}
+
+input::placeholder{
+  color: rgb(140, 140, 140);
+  font-weight: 580;
+    text-shadow: 8px 0 5px rgba(0, 218, 36, 0.372);
+
+}
+
+i{
+  margin-top: -4.4vh;
+  margin-inline: auto 25px;
+  font-size: 2rem;
+  text-shadow: 8px 8px 5px rgba(0, 218, 36, 0.372);
+}

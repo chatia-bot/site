@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatAI-BOT</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="#">A propos de nous</a>
+          <a href="#form">S'inscrire</a>
+        </ul>
+      </nav>
+      <div class="card">
+          <h1>Chat<span class="AI">AI</span>-BOT</h1>
+          <span class="subtitle">Faster, Stronger</span>
+      </div>
+    </header>
+    <section class="form-container">
+     <form method="POST" action="/register" class="register-form" id="form">
+      <h2>S'inscrire</h2>
+      <label for="username"
+        >Nom <input type="text" name="username" id="username" placeholder="Ex: Jeremy" required
+      /></label>
+      <label for="email"
+        >Email <input type="text" name="email" id="email" placeholder="Ex: Jeremy@gmail.com" required
+      /></label>
+      <label for="password"
+        >Mot de passe <input type="text" name="password" id="password" placeholder="Ex: 1234" required
+      /></label>
+      <a href="./connexion.html" class="submit">S'Inscrire</a>
+      <span class="phrase">Vous avez déjà un compte ? <a href="./connexion.html" class="switchbtn">Se connecter</a></span>
+    </form>
+
+
+   </section>
+  </body>
+</html>
